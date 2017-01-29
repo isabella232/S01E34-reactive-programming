@@ -17,7 +17,7 @@
 		17149D761E379B8900A04334 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17149D511E379B7F00A04334 /* RxCocoa.framework */; };
 		17149D771E379B8900A04334 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17149D511E379B7F00A04334 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17149D7C1E379F2400A04334 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17149D7B1E379F2400A04334 /* Networking.swift */; };
-		17149D7E1E379F6600A04334 /* CountriesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17149D7D1E379F6600A04334 /* CountriesDataSource.swift */; };
+		17149D7E1E379F6600A04334 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17149D7D1E379F6600A04334 /* CountriesViewModel.swift */; };
 		4ABA0D781E3E6275008061F1 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABA0D2E1E3E623A008061F1 /* ReactiveCocoa.framework */; };
 		4ABA0D791E3E6275008061F1 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABA0D431E3E623A008061F1 /* ReactiveSwift.framework */; };
 		4ABA0D7A1E3E6275008061F1 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABA0D591E3E623A008061F1 /* Result.framework */; };
@@ -397,7 +397,7 @@
 		17149D2A1E37997300A04334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17149D301E379B7F00A04334 /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = RxSwift/Rx.xcodeproj; sourceTree = SOURCE_ROOT; };
 		17149D7B1E379F2400A04334 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		17149D7D1E379F6600A04334 /* CountriesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesDataSource.swift; sourceTree = "<group>"; };
+		17149D7D1E379F6600A04334 /* CountriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
 		4ABA0D191E3E623A008061F1 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoa.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4ABA0D1C1E3E623A008061F1 /* ReactiveSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveSwift.xcodeproj; path = ReactiveSwift/ReactiveSwift.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4ABA0D1F1E3E623A008061F1 /* Result.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Result.xcodeproj; path = Result/Result.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -449,7 +449,7 @@
 				17149D301E379B7F00A04334 /* Rx.xcodeproj */,
 				17149D1E1E37997300A04334 /* AppDelegate.swift */,
 				17149D201E37997300A04334 /* ViewController.swift */,
-				17149D7D1E379F6600A04334 /* CountriesDataSource.swift */,
+				17149D7D1E379F6600A04334 /* CountriesViewModel.swift */,
 				4ABA0DB11E3E9F5D008061F1 /* LoadResult.swift */,
 				17149D7B1E379F2400A04334 /* Networking.swift */,
 				17149D221E37997300A04334 /* Main.storyboard */,
@@ -936,7 +936,7 @@
 				17149D7C1E379F2400A04334 /* Networking.swift in Sources */,
 				17149D211E37997300A04334 /* ViewController.swift in Sources */,
 				17149D1F1E37997300A04334 /* AppDelegate.swift in Sources */,
-				17149D7E1E379F6600A04334 /* CountriesDataSource.swift in Sources */,
+				17149D7E1E379F6600A04334 /* CountriesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
