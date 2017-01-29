@@ -8,11 +8,11 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import ReactiveSwift
 
 final class CountriesDataSource: NSObject, UIPickerViewDataSource, UIPickerViewDelegate {
     let countries = ["Germany", "Netherlands"]
-    let selectedIndex = Variable<Int>(0)
+    let selectedIndex = MutableProperty(0)
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
